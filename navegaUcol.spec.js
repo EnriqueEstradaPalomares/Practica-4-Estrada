@@ -9,7 +9,7 @@ describe('Navegando por el sitio de la Universidad de Colima'
                 .type('plataforma educ').should('have.value',
                     'plataforma educ')
             cy.get('.form-search-ucol').submit()
-            cy.contains('menos basura en colima').click()
+            cy.contains('EDUC').click()
         })
 
     })
